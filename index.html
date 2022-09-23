@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NITIN KUMAR</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+      integrity="sha512-ymdTQyUk0UfVv71LHB/INBdluI7qg0WKX5Wy9DZNsYcliOVveSy42TBPcgbhm/RSsIHLj+3YlAfDL+/WgBMaIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!--nav-->
+
+    <header>
+      <button class="nav-toggle" >
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--introduction-->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi,I am <strong>NITIN</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">CS Engineer</p>
+      <img class="intro__img"
+        src="img/Layout/nitindp.jpg"
+        alt="a picture of NITIN smiling"
+      />
+    </section>
+    <!--blank-->
+    <div class="hgt">
+
+    </div>
+
+    <!--my Services-->
+    <section class="my_services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Code</h3>
+          <p>
+            I like building things. Code gives me that creative freedom. It's impressive to type some code you can use in real life.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Web-Development</h3>
+          <p>
+            I'm a Web Developer, I love to create beautiful and functional websites. It allows me to express myself creatively on the internet. I know <strong> HTML, CSS, javascript, Reactjs and Nodejs</strong>. A complete MERN stack, which makes me a full-stack developer.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Action</h3>
+          <p>
+            I believe in action, which means completing the task at hand, by self-learning or doing teamwork. I want to be as productive as possible and produce the best results.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--about me-->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about"></p>
+
+      <div class="about-me__body">
+        <p>
+          I'm a CS graduate who had done computer science engineering with a first-class degree and qualified all-India GATE exam with 93.79 percentile.
+        </p>
+        <p>
+          I like to code, I choose web development as my career. I like to learn and apply knowledge to create creative things.
+        </p>
+      </div>
+
+      <img class="about-me__img"
+        src="img/Layout/nitindp.jpg"
+        alt=""
+      />
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work"> Here is some of my work that I've done.</p>
+
+      <div class="portfolio">
+        <!--portfolio item 01 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/HTMLCSS.png"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--portfolio item 02 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/javascript.png"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+        <!--portfolio item 03 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/reactnode.png"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+       
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p> &copy; <span id="date"></span> <span class = "foot">Built by </span>Nitin kumar </p>
+        <ul class="social-list">
+            <li class=""social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/nitin-kumar-35b24318b" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+            <li class=""social-list__item"><a class="social-list__link" href="https://github.com/theni3kr" target="_blank">
+              <i class="fab fa-github"></i>
+            </a></li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
