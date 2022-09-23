@@ -387,13 +387,13 @@ header{
 }
 
 .portfolio__item{
-   background: var(--clr-accent);
    margin: auto;
    margin-bottom: 3em;
    overflow: hidden;
    width: 300px;
    height: 280px;
    border-radius: 2px;
+   justify-content: center;
 }
 
 .portfolio__img{
